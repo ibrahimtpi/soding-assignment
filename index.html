@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SODING: INDIVIDUAL ASSIGNMENT</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="top-bar"></div><!-- #top-bar -->
+	
+		<ul id="socials">
+			<li id="twitter"><iframe src="https://platform.twitter.com/widgets/tweet_button.html?size=l&url=https%3A%2F%2Fdev.twitter.com%2Fweb%2Ftweet-button&via=twitterdev&related=twitterapi%2Ctwitter&text=custom%20share%20text&hashtags=example%2Cdemo" width="140" height="28" title="Twitter Tweet Button" style="border: 0; overflow: hidden;"></iframe></li>
+			<li id="facebook"><iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=63&layout=button&action=like&size=large&show_faces=false&share=false&height=65&appId" width="63" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe></li>
+		</ul>		
+	<!-- #socials -->
+	<div class="wrapper">
+		<div class="payment-top">
+			<h1>The MAD Festival 2012 Photos <span class="info-tag">200 LEFT</span><a href="#">edit</a></h1>
+			<p id="price-tag">$1+</p>
+		</div><!-- .payment-top -->
+		<div class="payment-bottom">
+			<a class="cta-button">Click here to pay.</a>
+			<form id="payment-form" method="POST" action="">
+			  <div class="form-email">
+				<p><label for="email">To:</label>
+					<input type="email" id="email" name="email" placeholder="hello@abhimanyughoshal.com">
+				</p>
+			  </div><!-- .form-email -->
+			  <div class="form-details">
+			  	<h3>Payment details</h3>
+				<p class="card-number"><label for="card">CARD NUMBER</label>
+					<input type="text" id="card" name="card" placeholder="1234432112344321">
+				</p><!-- .card -->
+				<p class="cv-code"><label for="cvv">CV CODE</label>
+					<input type="text" id="cvv" name="cvv" placeholder="420">
+				</p><!-- .cv-code -->
+				<p class="expiry-date">
+				  <label for="expire-month">EXPIRY DATE</label>
+				  <select id="expire-month">
+				    <option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				  </select><!-- #expire-month -->
+				  <select id="expire-year">
+				    <option value="2017">2017</option>
+				    <option value="2018">2018</option>
+				    <option value="2019">2019</option>
+				    <option value="2020">2020</option>
+				    <option value="2021">2021</option>
+				    <option value="2022">2022</option>
+				    <option value="2023">2023</option>
+				    <option value="2024">2024</option>
+				    <option value="2025">2025</option>
+				    <option value="2026">2026</option>
+				  </select><!-- #expire-year -->
+				</p><!-- .expiry-date -->
+			  </div><!-- .form-details -->
+			  <div class="form-paybutton">
+			  	<p class="name-your-price">
+			  	  <strong>Name your price:</strong>
+			  	  <span>($1 or more)</span>
+			  	</p><!-- .name-your-price -->
+			  	<input type="text" id="amount" name="amount" placeholder="5">
+			  	<input type="submit" id="pay" name="pay" value="Pay">
+			  </div><!-- .form-paybutton -->
+			</form><!-- #payment-form -->
+		</div><!-- .payment-bottom -->
+	</div><!-- .wrapper -->
+
+</body>
+</html>
